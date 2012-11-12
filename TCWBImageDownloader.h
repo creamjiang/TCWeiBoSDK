@@ -1,5 +1,5 @@
 //
-//  ImageDownloader.h
+//  TCWBImageDownloader.h
 //  TCWeiBoSDKDemo
 //
 //  Created by 北京市海淀区 guosong on 12-9-13.
@@ -15,7 +15,7 @@
 @end
 
 
-@interface ImageDownloader : NSObject {
+@interface TCWBImageDownloader : NSObject {
     
     NSURLConnection *connURL;
     NSMutableData *dataImage;

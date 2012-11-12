@@ -18,7 +18,7 @@
     
     if(self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         
-        imageDownloader = [[ImageDownloader alloc] init];
+        imageDownloader = [[TCWBImageDownloader alloc] init];
         [imageDownloader setDelegate:self];
         
         strHeadPath = [[NSMutableString alloc] init];

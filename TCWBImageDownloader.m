@@ -1,14 +1,14 @@
 //
-//  ImageDownloader.m
+//  TCWBImageDownloader.m
 //  TCWeiBoSDKDemo
 //
 //  Created by 北京市海淀区 guosong on 12-9-13.
 //  Copyright (c) 2012年 bysft. All rights reserved.
 //
 
-#import "ImageDownloader.h"
+#import "TCWBImageDownloader.h"
 
-@implementation ImageDownloader
+@implementation TCWBImageDownloader
 @synthesize delegate;
 
 

@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ImageDownloader.h"
+#import "TCWBImageDownloader.h"
 
 @interface UITableViewFriendCell :UITableViewCell<ImageDownloaderDelegate> {
  
-    ImageDownloader *imageDownloader;
+    TCWBImageDownloader *imageDownloader;
     
     UIImageView *imageviewHead;
     
